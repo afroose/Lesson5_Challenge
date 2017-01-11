@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="abstract" content="Greg's List - Job Search">
+   <meta name="keywords" content="classified,ads,online resume,job search,open position,programming, developer">
+	<meta name="robots" content="follow, index">
+	<meta name="rights" content="Copyright 2017, Greg's List. All rights reserved.">
+	<title>Greg's List - Programming jobs - open positions</title>
+	
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <!-- your styles go in position-page.css -->
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  
+</head>
+
+<body>  
+	<header>
+	  <nav>
+	    <span id="logoText">Greg's List</span>
+      <ul>
+        <li><a href="#">Post</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+	  </nav>
+  	</header>
+	<main>
+	  <section id="search">
+      <form class='search-form' action="/some-server-endpoint" method='post'> 
+        <fieldset name="job-search">
+          <input placeholder='Search software jobs' type="text" name='job-specs' id='job-specs' />        
+          <button type='submit' class="submitClass"><img src="images/magnifying-glass.png" class="buttonImg"></button>
+        <fieldset
+      </form>
+	  </section>
+    
+     <section id="results">
+	    <nav class="pages">
+          <a ref="#" class="pages-buttons">&lt; Prev</a>
+          <span class="pages-count">1 to 100 of 179</span>
+          <a ref="#" class="pages-buttons">&gt; Next</a>
+       </nav>
+     <section>   
+	  <section id="jobs">
+      <ul class="listings">
+        <li class="listings">
+          <span class="jobs-date">June 22</span>
+          <span class="jobs-jobtitle">Frontend Developer</span>
+          <span class="jobs-location">Midtown East</span>
+        </li>
+        <li class="listings">
+          <span class="jobs-date">June 21</span>
+          <span class="jobs-jobtitle">technical Project manager</span>
+          <span class="jobs-location">SoHo</span>
+        </li>
+        <li class="listings">
+          <span class="jobs-date">June 20</span>
+          <span class="jobs-jobtitle">Senior Python Developer / Cofounder</span>
+          <span class="jobs-location">Flatiron</span>
+        </li>
+      </ul>
+	  </section>
+	</main>
+</body>
+</html>
